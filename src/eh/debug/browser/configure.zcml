@@ -19,6 +19,12 @@
       />
 
   <browser:page
+    	for="*"
+    	name="eh-misc-init"
+    	class=".eh_misc_init.ehMiscInit"
+    	permission="cmf.ManagePortal"
+    	/>
+  <browser:page
       for="*"
        name="debug"
        class=".debug.debug"
